@@ -9,9 +9,12 @@ config.FIRESTORE_PAYOUT_ROOT = process.env.FIRESTORE_PAYOUT_ROOT;
 config.FIRESTORE_MISSION_ROOT = process.env.FIRESTORE_MISSION_ROOT;
 config.FIRESTORE_CONFIG_ROOT = process.env.FIRESTORE_CONFIG_ROOT;
 config.FIRESTORE_COUPON_ROOT = process.env.FIRESTORE_COUPON_ROOT;
+config.FIRESTORE_LIKER_NFT_ROOT = process.env.FIRESTORE_LIKER_NFT_ROOT;
 config.FIRESTORE_OAUTH_CLIENT_ROOT = process.env.FIRESTORE_OAUTH_CLIENT_ROOT;
 config.FIREBASE_STORAGE_BUCKET = process.env.FIREBASE_STORAGE_BUCKET;
+config.FIRESTORE_ISCN_INFO_ROOT = process.env.FIRESTORE_ISCN_INFO_ROOT;
 
+config.COSMOS_LCD_INDEXER_ENDPOINT = 'https://node.testnet.like.co';
 config.COSMOS_LCD_ENDPOINT = 'https://node.testnet.like.co';
 config.COSMOS_RPC_ENDPOINT = 'https://node.testnet.like.co/rpc/';
 config.COSMOS_CHAIN_ID = 'likecoin-public-testnet-5';
@@ -22,6 +25,15 @@ config.COSMOS_DENOM = 'nanoekil';
 config.ARWEAVE_LIKE_TARGET_ADDRESS = '';
 config.IPFS_ENDPOINT = 'https://ipfs.infura.io:5001/api/v0';
 config.REPLICA_IPFS_ENDPOINTS = [];
+
+config.LIKER_NFT_TARGET_ADDRESS = '';
+config.LIKER_NFT_STARTING_PRICE = 8;
+config.LIKER_NFT_PRICE_MULTIPLY = 2;
+config.LIKER_NFT_PRICE_DECAY = 0.2;
+config.LIKER_NFT_DECAY_START_BATCH = 13;
+config.LIKER_NFT_DECAY_END_BATCH = 18;
+config.LIKER_NFT_GAS_FEE = '200000';
+
 
 config.AUTHCORE_API_ENDPOINT = '';
 config.AUTHCORE_PUBLIC_CERT_PATH = '';
