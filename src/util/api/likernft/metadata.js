@@ -12,7 +12,7 @@ async function addTextOnImage(text, color) {
       <style>
       .title { fill: ${color}; font-size: 100px; font-weight: bold;}
       </style>
-      <text x="50%" y="55%" text-anchor="middle" class="title">${text}</text>
+      <text x="50%" y="55%" text-anchor="middle" class="title" style="font-family:DFKai-sb;">${text}</text>
     </svg>
     `;
   return Buffer.from(svgImage);
